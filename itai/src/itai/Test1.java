@@ -7,7 +7,7 @@ public class Test1 {
 
 	public static void main(String []str) throws Exception{
 		
-	    BufferedReader in =  new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
+	    BufferedReader in =  new BufferedReader(new InputStreamReader(System.in, "UTF8"));
 		while(true){
 			handleOperation(in);
 		}
